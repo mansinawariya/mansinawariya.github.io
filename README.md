@@ -36,4 +36,4 @@ LinkedIn:
 https://linkedin.com/in/mansi-nawariya-35985b302
 
 Email:
-your- mansinawariya1@gmail.com
+mansinawariya1@gmail.com
