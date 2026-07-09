@@ -447,3 +447,68 @@ footer p:last-child{
 }
 
 }
+/* ===========================
+   PROJECT BUTTON
+=========================== */
+
+.project-btn{
+
+    display:inline-block;
+    margin-top:20px;
+
+    padding:12px 24px;
+
+    background:#1e3a8a;
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.project-btn:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================
+   PROJECT TECH STACK
+=========================== */
+
+.project-tech{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-top:15px;
+
+}
+
+.project-tech span{
+
+    background:#eef4ff;
+
+    color:#1e3a8a;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    border:1px solid #c7d2fe;
+
+}
