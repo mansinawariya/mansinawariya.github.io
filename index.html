@@ -1,109 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Mansi Nawariya | DevOps Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mansi Nawariya | DevOps Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-<!-- Navigation -->
+<!-- ================= NAVBAR ================= -->
+
 <nav>
-    <h2>Mansi Nawariya</h2>
-    <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+
+    <div class="logo">
+        Mansi Nawariya
     </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
 </nav>
 
-<!-- Hero Section -->
-<header class="hero">
-    <h1>DevOps Engineer</h1>
-    <p>RHCSA Certified | Linux | Docker | Monitoring | CI/CD</p>
+<!-- ================= HERO ================= -->
 
-    <div class="hero-buttons">
-        <a href="resume.pdf" class="btn" download>Download Resume</a>
-        <a href="https://github.com/mansinawariya" target="_blank" class="btn-outline">GitHub</a>
-        <a href="https://www.linkedin.com/in/mansi-nawariya-35985b302/" target="_blank" class="btn-outline">LinkedIn</a>
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Hi, I'm
+            <span>Mansi Nawariya</span>
+            👋
+        </h1>
+
+        <h2>
+            RHCSA Certified | Aspiring DevOps Engineer
+        </h2>
+
+        <p>
+
+            Passionate about Linux, DevOps, Cloud Computing,
+            Automation and Infrastructure.
+
+            <br><br>
+
+            Building real-world DevOps projects while continuously
+            learning AWS, Kubernetes and CI/CD.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="resume.pdf"
+               download
+               class="btn">
+
+                <i class="fa-solid fa-file-arrow-down"></i>
+
+                Download Resume
+
+            </a>
+
+            <a href="https://github.com/mansinawariya"
+               target="_blank"
+               class="btn-outline">
+
+                <i class="fa-brands fa-github"></i>
+
+                GitHub
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/mansi-nawariya-35985b302/"
+               target="_blank"
+               class="btn-linkedin">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                LinkedIn
+
+            </a>
+
+        </div>
+
     </div>
-</header>
 
-<!-- About -->
-<section id="about" class="card">
-    <h2>About Me</h2>
-    <p>
-        DevOps Engineer with 1.5 years of experience in Linux administration,
-        containerization, monitoring, and system operations. Experienced with
-        Docker, Podman, Prometheus, Grafana, Elasticsearch, Git, and CI/CD tools.
-        RHCSA certified and focused on building reliable, automated, and scalable infrastructure.
-    </p>
 </section>
 
-<!-- Skills -->
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="card">
+
+    <h2>About Me</h2>
+
+    <p>
+
+        I am an aspiring DevOps Engineer with hands-on experience
+        in Linux Administration, Docker, Podman, Monitoring,
+        Git, CI/CD and Cloud technologies.
+
+        <br><br>
+
+        I enjoy building automation, solving infrastructure
+        problems and continuously improving my DevOps skills
+        through real-world projects.
+
+    </p>
+
+</section>
+<!-- ================= SKILLS ================= -->
+
 <section id="skills" class="card">
+
     <h2>Technical Skills</h2>
+
     <div class="skills">
-        <span>Linux (RHEL/Ubuntu)</span>
+
+        <span>Linux (RHEL / Ubuntu)</span>
+        <span>RHCSA</span>
         <span>Docker</span>
         <span>Podman</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Jenkins</span>
         <span>Prometheus</span>
         <span>Grafana</span>
         <span>Elasticsearch</span>
         <span>Kibana</span>
-        <span>Git & GitHub</span>
-        <span>Gitea</span>
-        <span>Jenkins</span>
-        <span>Monitoring & Alerting</span>
-        <span>System Troubleshooting</span>
+        <span>AWS (Learning)</span>
+        <span>Kubernetes (Learning)</span>
+        <span>CI/CD</span>
+        <span>Monitoring</span>
+        <span>Shell Scripting</span>
+
     </div>
+
 </section>
 
-<!-- Projects -->
+<!-- ================= PROJECTS ================= -->
+
 <section id="projects" class="card">
+
     <h2>Projects</h2>
 
     <div class="project-grid">
 
         <div class="project">
-            <h3>Monitoring System</h3>
-            <p>Implemented Prometheus and Grafana to monitor PostgreSQL and OpenSearch performance using Podman containers.</p>
+
+            <h3>DevOps Monitoring Stack</h3>
+
+            <p>
+
+                Built a monitoring solution using Prometheus,
+                Grafana, PostgreSQL Exporter and Podman
+                containers to monitor Linux services.
+
+            </p>
+
         </div>
 
         <div class="project">
-            <h3>Local DevOps Lab</h3>
-            <p>Set up Gitea and Jenkins for a local CI/CD pipeline and automated build environment.</p>
+
+            <h3>Local CI/CD Pipeline</h3>
+
+            <p>
+
+                Configured Jenkins and Git repositories
+                to automate application build and deployment
+                in a local DevOps lab.
+
+            </p>
+
         </div>
 
         <div class="project">
+
+            <h3>Linux Administration Lab</h3>
+
+            <p>
+
+                Performed user management, permissions,
+                package management, storage configuration,
+                networking and troubleshooting.
+
+            </p>
+
+        </div>
+
+        <div class="project">
+
             <h3>Employee Management System</h3>
-            <p>Developed a web-based system for managing employee data and operations.</p>
-        </div>
 
-        <div class="project">
-            <h3>Manual Testing – NPI</h3>
-            <p>Performed functional and usability testing, tracked bugs using GitHub, and verified fixes.</p>
+            <p>
+
+                Developed a web application for managing
+                employee information and operations using
+                HTML, CSS and basic web technologies.
+
+            </p>
+
         </div>
 
     </div>
+
 </section>
 
-<!-- Contact -->
+<!-- ================= CONTACT ================= -->
+
 <section id="contact" class="card">
+
+
     <h2>Contact</h2>
 
-    <p>Email: <a href="mailto:mansinawariya1@gmail.com">mansinawariya1@gmail.com</a></p>
-    <p>Phone: +91-XXXXXXXXXX</p>
-    <p>Location: Delhi, India</p>
+    <p><strong>Email :</strong>
+        <a href="mailto:mansinawariya1@gmail.com">
+            mansinawariya1@gmail.com
+        </a>
+    </p>
+
+    <p><strong>Phone :</strong>
+        <a href="tel:+919810663517">
+            +91 9810663517
+        </a>
+    </p>
+
+    <p><strong>Location :</strong> Delhi, India</p>
 
     <div class="contact-buttons">
-        <a href="https://github.com/mansinawariya" target="_blank" class="btn-outline">GitHub</a>
-        <a href="https://www.linkedin.com/in/mansi-nawariya-35985b302/" target="_blank" class="btn-outline">LinkedIn</a>
+
+        <a href="https://github.com/mansinawariya"
+           target="_blank"
+           class="btn-outline">
+           <i class="fab fa-github"></i> GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/mansi-nawariya-35985b302/"
+           target="_blank"
+           class="btn-outline linkedin-btn">
+           <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
     </div>
+
 </section>
+<!-- ================= FOOTER ================= -->
 
 <footer>
-    <p>© 2026 Mansi Nawariya | DevOps Portfolio</p>
+    <p>© 2026 Mansi Nawariya. All Rights Reserved.</p>
+    <p>RHCSA Certified | Aspiring DevOps Engineer</p>
 </footer>
 
 </body>
